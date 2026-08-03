@@ -1,0 +1,501 @@
+OrderID,CustomerName,CustomerEmail,CustomerAddress,Suburb,PostCode,CustomerPhone,RestaurantName,RestaurantAddress,RestaurantPhone,DishName,DishPrice,OrderDate,Quantity,TotalAmount
+75,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Burger Barn,456 Burger Ave,(08) 93342056,Fries,3,13/03/2024,2,6
+216,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Burger Barn,456 Burger Ave,(08) 93342056,Pepperoni Pizza,9,30/07/2024,2,18
+225,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Burger Barn,456 Burger Ave,(08) 93342056,Fish and Chips,11,8/08/2024,1,11
+273,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Burger Barn,456 Burger Ave,(08) 93342056,Tempura,12,25/09/2024,2,24
+429,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Burger Barn,456 Burger Ave,(08) 93342056,Chicken Curry,13,26/02/2025,1,13
+463,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Burger Barn,456 Burger Ave,(08) 93342056,Pasta Primavera,14,29/03/2025,3,42
+108,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Curry Corner,303 Curry Blvd,(08) 98182384,Sushi Roll,10,15/04/2024,3,30
+114,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Curry Corner,303 Curry Blvd,(08) 98182384,Burrito,8,21/04/2024,1,8
+134,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Curry Corner,303 Curry Blvd,(08) 98182384,Pepperoni Pizza,9,10/05/2024,1,9
+145,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Curry Corner,303 Curry Blvd,(08) 98182384,Sushi Roll,10,21/05/2024,2,20
+372,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Curry Corner,303 Curry Blvd,(08) 98182384,Steak,20,31/12/2024,2,40
+392,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Curry Corner,303 Curry Blvd,(08) 98182384,Fish and Chips,11,20/01/2025,3,33
+395,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Curry Corner,303 Curry Blvd,(08) 98182384,Fish and Chips,11,23/01/2025,2,22
+453,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Curry Corner,303 Curry Blvd,(08) 98182384,Steak,20,19/03/2025,3,60
+51,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Pasta Palace,123 Pasta Lane,(08) 94246843,Steak,20,20/02/2024,3,60
+62,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Pasta Palace,123 Pasta Lane,(08) 94246843,Burrito,8,31-02-2024,1,8
+98,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Pasta Palace,123 Pasta Lane,(08) 94246843,Veggie Taco,6,5/04/2024,1,6
+150,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Pasta Palace,123 Pasta Lane,(08) 94246843,Veggie Taco,6,26/05/2024,2,12
+192,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Pasta Palace,123 Pasta Lane,(08) 94246843,Fish and Chips,11,6/07/2024,3,33
+207,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Pasta Palace,123 Pasta Lane,(08) 94246843,Cheeseburger,8.5,21/07/2024,1,8.5
+208,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Pasta Palace,123 Pasta Lane,(08) 94246843,Veggie Taco,6,22/07/2024,1,6
+5,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Pizza Plaza,101 Pizza Street,(08) 99827044,Fries,3,5/01/2024,3,9
+81,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Pizza Plaza,101 Pizza Street,(08) 99827044,Fries,3,19/03/2024,2,6
+99,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Pizza Plaza,101 Pizza Street,(08) 99827044,Spaghetti,12.5,6/04/2024,1,12.5
+125,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Pizza Plaza,101 Pizza Street,(08) 99827044,Fries,3,1/05/2024,3,9
+346,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Pizza Plaza,101 Pizza Street,(08) 99827044,Veggie Taco,6,5/12/2024,1,6
+354,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Pizza Plaza,101 Pizza Street,(08) 99827044,Caesar Salad,7.5,13/12/2024,3,22.5
+402,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Pizza Plaza,101 Pizza Street,(08) 99827044,Chicken Curry,13,30/01/2025,3,39
+447,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Pizza Plaza,101 Pizza Street,(08) 99827044,Chicken Curry,13,13/03/2025,2,26
+454,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Pizza Plaza,101 Pizza Street,(08) 99827044,Lasagna,15,20/03/2025,3,45
+70,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Steak House,404 Steak Ave,(08) 94286388,Spaghetti,12.5,8/03/2024,1,12.5
+157,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Steak House,404 Steak Ave,(08) 94286388,Fish and Chips,11,2/06/2024,2,22
+253,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Steak House,404 Steak Ave,(08) 94286388,Pasta Primavera,14,5/09/2024,3,42
+255,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Steak House,404 Steak Ave,(08) 94286388,Fries,3,7/09/2024,1,3
+333,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Steak House,404 Steak Ave,(08) 94286388,Chicken Curry,13,23/11/2024,2,26
+334,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Steak House,404 Steak Ave,(08) 94286388,Grilled Chicken,16,24/11/2024,2,32
+389,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Steak House,404 Steak Ave,(08) 94286388,Sushi Roll,10,17/01/2025,2,20
+148,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Sushi Spot,789 Sushi Blvd,(08) 94331690,Lasagna,15,24/05/2024,2,30
+374,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Sushi Spot,789 Sushi Blvd,(08) 94331690,Pepperoni Pizza,9,2/01/2025,2,18
+477,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Sushi Spot,789 Sushi Blvd,(08) 94331690,Veggie Taco,6,12/04/2025,2,12
+488,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Sushi Spot,789 Sushi Blvd,(08) 94331690,Veggie Taco,6,23/04/2025,2,12
+73,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Taco Town,202 Taco Road,(08) 97536869,Cheeseburger,8.5,11/03/2024,1,8.5
+190,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Taco Town,202 Taco Road,(08) 97536869,Grilled Chicken,16,4/07/2024,3,48
+277,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Taco Town,202 Taco Road,(08) 97536869,Caesar Salad,7.5,29/09/2024,1,7.5
+424,Alice Johnson,alice@hotmail.com,14 Barrack Street,Perth,6000,(08) 93012730,Taco Town,202 Taco Road,(08) 97536869,Spaghetti,12.5,21/02/2025,3,37.5
+165,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Burger Barn,456 Burger Ave,(08) 93342056,Pasta Primavera,14,10/06/2024,2,28
+295,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Burger Barn,456 Burger Ave,(08) 93342056,Fish and Chips,11,16/10/2024,1,11
+306,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Burger Barn,456 Burger Ave,(08) 93342056,Pasta Primavera,14,27/10/2024,2,28
+483,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Burger Barn,456 Burger Ave,(08) 93342056,Sushi Roll,10,18/04/2025,1,10
+343,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Curry Corner,303 Curry Blvd,(08) 98182384,Pepperoni Pizza,9,2/12/2024,3,27
+362,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Curry Corner,303 Curry Blvd,(08) 98182384,Pasta Primavera,14,21/12/2024,1,14
+12,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Pasta Palace,123 Pasta Lane,(08) 94246843,Burrito,8,12/01/2024,1,8
+271,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Pasta Palace,123 Pasta Lane,(08) 94246843,Grilled Chicken,16,23/09/2024,1,16
+312,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Pasta Palace,123 Pasta Lane,(08) 94246843,Steak,20,2/11/2024,1,20
+428,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Pasta Palace,123 Pasta Lane,(08) 94246843,Cheeseburger,8.5,25/02/2025,1,8.5
+480,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Pasta Palace,123 Pasta Lane,(08) 94246843,Grilled Chicken,16,15/04/2025,2,32
+191,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Pizza Plaza,101 Pizza Street,(08) 99827044,Steak,20,5/07/2024,2,40
+344,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Pizza Plaza,101 Pizza Street,(08) 99827044,Pasta Primavera,14,3/12/2024,1,14
+370,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Pizza Plaza,101 Pizza Street,(08) 99827044,Tempura,12,29/12/2024,3,36
+17,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Steak House,404 Steak Ave,(08) 94286388,Tempura,12,17/01/2024,1,12
+29,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Steak House,404 Steak Ave,(08) 94286388,Caesar Salad,7.5,29/01/2024,3,22.5
+132,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Steak House,404 Steak Ave,(08) 94286388,Pepperoni Pizza,9,8/05/2024,2,18
+19,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Sushi Spot,789 Sushi Blvd,(08) 94331690,Pasta Primavera,14,19/01/2024,3,42
+163,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Sushi Spot,789 Sushi Blvd,(08) 94331690,Pepperoni Pizza,9,8/06/2024,3,27
+212,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Sushi Spot,789 Sushi Blvd,(08) 94331690,Caesar Salad,7.5,26/07/2024,2,15
+252,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Sushi Spot,789 Sushi Blvd,(08) 94331690,Burrito,8,4/09/2024,3,24
+332,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Sushi Spot,789 Sushi Blvd,(08) 94331690,Cheeseburger,8.5,22/11/2024,1,8.5
+345,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Sushi Spot,789 Sushi Blvd,(08) 94331690,Fries,3,4/12/2024,3,9
+137,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Taco Town,202 Taco Road,(08) 97536869,Cheeseburger,8.5,13/05/2024,3,25.5
+147,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Taco Town,202 Taco Road,(08) 97536869,Pasta Primavera,14,23/05/2024,2,28
+175,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Taco Town,202 Taco Road,(08) 97536869,Tempura,12,20/06/2024,1,12
+217,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Taco Town,202 Taco Road,(08) 97536869,Lasagna,15,31/07/2024,3,45
+244,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Taco Town,202 Taco Road,(08) 97536869,Spaghetti,12.5,27/08/2024,3,37.5
+256,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Taco Town,202 Taco Road,(08) 97536869,Pasta Primavera,14,8/09/2024,2,28
+278,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Taco Town,202 Taco Road,(08) 97536869,Steak,20,30/09/2024,1,20
+299,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Taco Town,202 Taco Road,(08) 97536869,Spaghetti,12.5,20/10/2024,2,25
+331,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Taco Town,202 Taco Road,(08) 97536869,Steak,20,21/11/2024,2,40
+400,Bob Smith,bob@hotmail.com,23 Rogers Way,Subiaco,6002,(08) 92409649,Taco Town,202 Taco Road,(08) 97536869,Chicken Curry,13,28/01/2025,3,39
+385,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Burger Barn,456 Burger Ave,(08) 93342056,Veggie Taco,6,13/01/2025,2,12
+259,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Curry Corner,303 Curry Blvd,(08) 98182384,Grilled Chicken,16,11/09/2024,3,48
+353,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Curry Corner,303 Curry Blvd,(08) 98182384,Spaghetti,12.5,12/12/2024,3,37.5
+378,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Curry Corner,303 Curry Blvd,(08) 98182384,Pepperoni Pizza,9,6/01/2025,2,18
+404,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Curry Corner,303 Curry Blvd,(08) 98182384,Pepperoni Pizza,9,1/02/2025,3,27
+23,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Pasta Palace,123 Pasta Lane,(08) 94246843,Fish and Chips,11,23/01/2024,2,22
+77,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Pasta Palace,123 Pasta Lane,(08) 94246843,Chicken Curry,13,15/03/2024,3,39
+421,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Pasta Palace,123 Pasta Lane,(08) 94246843,Pepperoni Pizza,9,18/02/2025,2,18
+9,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Pizza Plaza,101 Pizza Street,(08) 99827044,Spaghetti,12.5,9/01/2024,2,25
+352,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Pizza Plaza,101 Pizza Street,(08) 99827044,Fish and Chips,11,11/12/2024,1,11
+365,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Pizza Plaza,101 Pizza Street,(08) 99827044,Grilled Chicken,16,24/12/2024,2,32
+419,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Pizza Plaza,101 Pizza Street,(08) 99827044,Steak,20,16/02/2025,3,60
+53,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Steak House,404 Steak Ave,(08) 94286388,Burrito,8,22/02/2024,3,24
+270,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Steak House,404 Steak Ave,(08) 94286388,Fish and Chips,11,22/09/2024,1,11
+88,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Sushi Spot,789 Sushi Blvd,(08) 94331690,Pepperoni Pizza,9,26/03/2024,1,9
+348,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Sushi Spot,789 Sushi Blvd,(08) 94331690,Steak,20,7/12/2024,2,40
+411,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Sushi Spot,789 Sushi Blvd,(08) 94331690,Caesar Salad,7.5,8/02/2025,1,7.5
+484,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Sushi Spot,789 Sushi Blvd,(08) 94331690,Steak,20,19/04/2025,1,20
+487,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Sushi Spot,789 Sushi Blvd,(08) 94331690,Chicken Curry,13,22/04/2025,3,39
+115,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Taco Town,202 Taco Road,(08) 97536869,Steak,20,22/04/2024,3,60
+230,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Taco Town,202 Taco Road,(08) 97536869,Steak,20,13/08/2024,3,60
+366,Carol White,carol@gmail.com,7 Angel Loop,Subiaco,6002,(08) 92500342,Taco Town,202 Taco Road,(08) 97536869,Chicken Curry,13,25/12/2024,3,39
+8,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Burger Barn,456 Burger Ave,(08) 93342056,Veggie Taco,6,8/01/2024,1,6
+27,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Burger Barn,456 Burger Ave,(08) 93342056,Pepperoni Pizza,9,27/01/2024,3,27
+314,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Burger Barn,456 Burger Ave,(08) 93342056,Fries,3,4/11/2024,1,3
+54,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Curry Corner,303 Curry Blvd,(08) 98182384,Tempura,12,23/02/2024,1,12
+435,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Curry Corner,303 Curry Blvd,(08) 98182384,Fish and Chips,11,1/03/2025,1,11
+97,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Pasta Palace,123 Pasta Lane,(08) 94246843,Sushi Roll,10,4/04/2024,2,20
+142,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Pasta Palace,123 Pasta Lane,(08) 94246843,Caesar Salad,7.5,18/05/2024,2,15
+202,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Pasta Palace,123 Pasta Lane,(08) 94246843,Grilled Chicken,16,16/07/2024,1,16
+211,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Pasta Palace,123 Pasta Lane,(08) 94246843,Fries,3,25/07/2024,1,3
+298,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Pasta Palace,123 Pasta Lane,(08) 94246843,Spaghetti,12.5,19/10/2024,2,25
+382,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Pasta Palace,123 Pasta Lane,(08) 94246843,Fries,3,10/01/2025,1,3
+387,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Pasta Palace,123 Pasta Lane,(08) 94246843,Grilled Chicken,16,15/01/2025,3,48
+399,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Pasta Palace,123 Pasta Lane,(08) 94246843,Pepperoni Pizza,9,27/01/2025,1,9
+57,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Pizza Plaza,101 Pizza Street,(08) 99827044,Fries,3,26/02/2024,3,9
+78,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Pizza Plaza,101 Pizza Street,(08) 99827044,Caesar Salad,7.5,16/03/2024,1,7.5
+90,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Pizza Plaza,101 Pizza Street,(08) 99827044,Chicken Curry,13,28/03/2024,3,39
+102,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Pizza Plaza,101 Pizza Street,(08) 99827044,Fries,3,9/04/2024,1,3
+151,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Pizza Plaza,101 Pizza Street,(08) 99827044,Steak,20,27/05/2024,1,20
+158,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Pizza Plaza,101 Pizza Street,(08) 99827044,Fish and Chips,11,3/06/2024,2,22
+367,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Pizza Plaza,101 Pizza Street,(08) 99827044,Sushi Roll,10,26/12/2024,3,30
+209,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Steak House,404 Steak Ave,(08) 94286388,Pasta Primavera,14,23/07/2024,1,14
+361,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Steak House,404 Steak Ave,(08) 94286388,Cheeseburger,8.5,20/12/2024,2,17
+493,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Steak House,404 Steak Ave,(08) 94286388,Steak,20,28/04/2025,3,60
+116,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Sushi Spot,789 Sushi Blvd,(08) 94331690,Veggie Taco,6,23/04/2024,1,6
+199,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Sushi Spot,789 Sushi Blvd,(08) 94331690,Pepperoni Pizza,9,13/07/2024,2,18
+257,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Sushi Spot,789 Sushi Blvd,(08) 94331690,Fish and Chips,11,9/09/2024,1,11
+274,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Sushi Spot,789 Sushi Blvd,(08) 94331690,Pepperoni Pizza,9,26/09/2024,3,27
+280,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Sushi Spot,789 Sushi Blvd,(08) 94331690,Cheeseburger,8.5,1/10/2024,1,8.5
+290,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Sushi Spot,789 Sushi Blvd,(08) 94331690,Fish and Chips,11,11/10/2024,2,22
+443,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Sushi Spot,789 Sushi Blvd,(08) 94331690,Chicken Curry,13,9/03/2025,3,39
+11,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Taco Town,202 Taco Road,(08) 97536869,Pasta Primavera,14,11/01/2024,3,42
+61,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Taco Town,202 Taco Road,(08) 97536869,Fries,3,30-02-2024,1,3
+76,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Taco Town,202 Taco Road,(08) 97536869,Sushi Roll,10,14/03/2024,2,20
+140,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Taco Town,202 Taco Road,(08) 97536869,Lasagna,15,16/05/2024,1,15
+233,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Taco Town,202 Taco Road,(08) 97536869,Grilled Chicken,16,16/08/2024,3,48
+262,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Taco Town,202 Taco Road,(08) 97536869,Steak,20,14/09/2024,2,40
+267,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Taco Town,202 Taco Road,(08) 97536869,Fish and Chips,11,19/09/2024,1,11
+474,David Brown,david@gmail.com,68 Kirkstall Ave,West Perth,6005,(08) 92373959,Taco Town,202 Taco Road,(08) 97536869,Steak,20,9/04/2025,3,60
+149,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Burger Barn,456 Burger Ave,(08) 93342056,Tempura,12,25/05/2024,2,24
+184,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Burger Barn,456 Burger Ave,(08) 93342056,Chicken Curry,13,29/06/2024,2,26
+198,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Burger Barn,456 Burger Ave,(08) 93342056,Caesar Salad,7.5,12/07/2024,3,22.5
+215,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Burger Barn,456 Burger Ave,(08) 93342056,Chicken Curry,13,29/07/2024,1,13
+223,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Burger Barn,456 Burger Ave,(08) 93342056,Lasagna,15,6/08/2024,1,15
+307,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Burger Barn,456 Burger Ave,(08) 93342056,Sushi Roll,10,28/10/2024,3,30
+219,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Curry Corner,303 Curry Blvd,(08) 98182384,Chicken Curry,13,2/08/2024,2,26
+350,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Curry Corner,303 Curry Blvd,(08) 98182384,Spaghetti,12.5,9/12/2024,3,37.5
+425,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Curry Corner,303 Curry Blvd,(08) 98182384,Chicken Curry,13,22/02/2025,2,26
+431,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Curry Corner,303 Curry Blvd,(08) 98182384,Veggie Taco,6,28/02/2025,3,18
+461,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Curry Corner,303 Curry Blvd,(08) 98182384,Lasagna,15,27/03/2025,1,15
+286,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Pasta Palace,123 Pasta Lane,(08) 94246843,Pasta Primavera,14,7/10/2024,2,28
+336,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Pasta Palace,123 Pasta Lane,(08) 94246843,Steak,20,26/11/2024,2,40
+360,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Pasta Palace,123 Pasta Lane,(08) 94246843,Caesar Salad,7.5,19/12/2024,2,15
+96,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Pizza Plaza,101 Pizza Street,(08) 99827044,Cheeseburger,8.5,3/04/2024,1,8.5
+458,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Pizza Plaza,101 Pizza Street,(08) 99827044,Veggie Taco,6,24/03/2025,2,12
+58,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Steak House,404 Steak Ave,(08) 94286388,Pasta Primavera,14,27/02/2024,2,28
+79,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Steak House,404 Steak Ave,(08) 94286388,Caesar Salad,7.5,17/03/2024,3,22.5
+205,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Steak House,404 Steak Ave,(08) 94286388,Sushi Roll,10,19/07/2024,1,10
+44,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Sushi Spot,789 Sushi Blvd,(08) 94331690,Sushi Roll,10,13/02/2024,2,20
+327,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Sushi Spot,789 Sushi Blvd,(08) 94331690,Chicken Curry,13,17/11/2024,1,13
+423,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Sushi Spot,789 Sushi Blvd,(08) 94331690,Fish and Chips,11,20/02/2025,3,33
+66,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Taco Town,202 Taco Road,(08) 97536869,Spaghetti,12.5,4/03/2024,2,25
+359,Eve Black,eve@gmail.com,45 Wellington Street,Perth,6000,(08) 99403407,Taco Town,202 Taco Road,(08) 97536869,Lasagna,15,18/12/2024,3,45
+248,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Burger Barn,456 Burger Ave,(08) 93342056,Cheeseburger,8.5,31/08/2024,3,25.5
+269,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Burger Barn,456 Burger Ave,(08) 93342056,Sushi Roll,10,21/09/2024,3,30
+398,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Burger Barn,456 Burger Ave,(08) 93342056,Steak,20,26/01/2025,3,60
+408,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Burger Barn,456 Burger Ave,(08) 93342056,Caesar Salad,7.5,5/02/2025,3,22.5
+468,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Burger Barn,456 Burger Ave,(08) 93342056,Veggie Taco,6,3/04/2025,3,18
+48,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Curry Corner,303 Curry Blvd,(08) 98182384,Burrito,8,17/02/2024,2,16
+371,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Curry Corner,303 Curry Blvd,(08) 98182384,Veggie Taco,6,30/12/2024,3,18
+87,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Pasta Palace,123 Pasta Lane,(08) 94246843,Cheeseburger,8.5,25/03/2024,2,17
+156,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Pasta Palace,123 Pasta Lane,(08) 94246843,Veggie Taco,6,1/06/2024,1,6
+171,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Pasta Palace,123 Pasta Lane,(08) 94246843,Pepperoni Pizza,9,16/06/2024,3,27
+218,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Pasta Palace,123 Pasta Lane,(08) 94246843,Fish and Chips,11,1/08/2024,2,22
+118,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Pizza Plaza,101 Pizza Street,(08) 99827044,Burrito,8,25/04/2024,2,16
+276,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Pizza Plaza,101 Pizza Street,(08) 99827044,Cheeseburger,8.5,28/09/2024,3,25.5
+450,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Pizza Plaza,101 Pizza Street,(08) 99827044,Chicken Curry,13,16/03/2025,1,13
+476,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Pizza Plaza,101 Pizza Street,(08) 99827044,Lasagna,15,11/04/2025,1,15
+35,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Steak House,404 Steak Ave,(08) 94286388,Spaghetti,12.5,4/02/2024,3,37.5
+105,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Steak House,404 Steak Ave,(08) 94286388,Sushi Roll,10,12/04/2024,2,20
+228,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Steak House,404 Steak Ave,(08) 94286388,Sushi Roll,10,11/08/2024,2,20
+251,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Steak House,404 Steak Ave,(08) 94286388,Cheeseburger,8.5,3/09/2024,3,25.5
+426,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Steak House,404 Steak Ave,(08) 94286388,Tempura,12,23/02/2025,3,36
+56,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Sushi Spot,789 Sushi Blvd,(08) 94331690,Steak,20,25/02/2024,1,20
+93,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Sushi Spot,789 Sushi Blvd,(08) 94331690,Fries,3,31/03/2024,2,6
+394,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Sushi Spot,789 Sushi Blvd,(08) 94331690,Burrito,8,22/01/2025,1,8
+407,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Sushi Spot,789 Sushi Blvd,(08) 94331690,Spaghetti,12.5,4/02/2025,2,25
+496,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Sushi Spot,789 Sushi Blvd,(08) 94331690,Chicken Curry,13,31-04-2025,2,26
+1,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Taco Town,202 Taco Road,(08) 97536869,Fish and Chips,11,1/01/2024,3,33
+45,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Taco Town,202 Taco Road,(08) 97536869,Caesar Salad,7.5,14/02/2024,1,7.5
+231,Frank Green,frank@gmail.com,32 Marmion Blvd,Perth,6000,(08) 95688841,Taco Town,202 Taco Road,(08) 97536869,Veggie Taco,6,14/08/2024,3,18
+3,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Burger Barn,456 Burger Ave,(08) 93342056,Fish and Chips,11,3/01/2024,1,11
+21,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Burger Barn,456 Burger Ave,(08) 93342056,Fries,3,21/01/2024,1,3
+52,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Burger Barn,456 Burger Ave,(08) 93342056,Grilled Chicken,16,21/02/2024,1,16
+422,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Burger Barn,456 Burger Ave,(08) 93342056,Veggie Taco,6,19/02/2025,1,6
+94,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Curry Corner,303 Curry Blvd,(08) 98182384,Veggie Taco,6,1/04/2024,3,18
+393,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Curry Corner,303 Curry Blvd,(08) 98182384,Grilled Chicken,16,21/01/2025,2,32
+401,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Curry Corner,303 Curry Blvd,(08) 98182384,Tempura,12,29/01/2025,1,12
+432,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Curry Corner,303 Curry Blvd,(08) 98182384,Spaghetti,12.5,29-02-2025,1,12.5
+30,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Pasta Palace,123 Pasta Lane,(08) 94246843,Chicken Curry,13,30/01/2024,1,13
+41,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Pasta Palace,123 Pasta Lane,(08) 94246843,Fish and Chips,11,10/02/2024,2,22
+104,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Pasta Palace,123 Pasta Lane,(08) 94246843,Chicken Curry,13,11/04/2024,2,26
+130,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Pasta Palace,123 Pasta Lane,(08) 94246843,Caesar Salad,7.5,6/05/2024,2,15
+226,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Pasta Palace,123 Pasta Lane,(08) 94246843,Veggie Taco,6,9/08/2024,2,12
+328,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Pasta Palace,123 Pasta Lane,(08) 94246843,Burrito,8,18/11/2024,2,16
+358,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Pasta Palace,123 Pasta Lane,(08) 94246843,Pepperoni Pizza,9,17/12/2024,2,18
+187,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Pizza Plaza,101 Pizza Street,(08) 99827044,Pasta Primavera,14,1/07/2024,1,14
+224,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Pizza Plaza,101 Pizza Street,(08) 99827044,Fries,3,7/08/2024,1,3
+247,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Pizza Plaza,101 Pizza Street,(08) 99827044,Cheeseburger,8.5,30/08/2024,2,17
+322,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Pizza Plaza,101 Pizza Street,(08) 99827044,Steak,20,12/11/2024,1,20
+403,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Pizza Plaza,101 Pizza Street,(08) 99827044,Veggie Taco,6,31/01/2025,2,12
+49,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Steak House,404 Steak Ave,(08) 94286388,Steak,20,18/02/2024,3,60
+63,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Steak House,404 Steak Ave,(08) 94286388,Pepperoni Pizza,9,1/03/2024,1,9
+112,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Steak House,404 Steak Ave,(08) 94286388,Caesar Salad,7.5,19/04/2024,2,15
+162,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Steak House,404 Steak Ave,(08) 94286388,Sushi Roll,10,7/06/2024,2,20
+485,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Steak House,404 Steak Ave,(08) 94286388,Burrito,8,20/04/2025,2,16
+71,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Sushi Spot,789 Sushi Blvd,(08) 94331690,Burrito,8,9/03/2024,2,16
+103,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Sushi Spot,789 Sushi Blvd,(08) 94331690,Lasagna,15,10/04/2024,2,30
+111,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Sushi Spot,789 Sushi Blvd,(08) 94331690,Sushi Roll,10,18/04/2024,3,30
+384,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Sushi Spot,789 Sushi Blvd,(08) 94331690,Grilled Chicken,16,12/01/2025,2,32
+466,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Sushi Spot,789 Sushi Blvd,(08) 94331690,Grilled Chicken,16,1/04/2025,1,16
+83,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Taco Town,202 Taco Road,(08) 97536869,Chicken Curry,13,21/03/2024,2,26
+264,Grace Grey,grace@gmail.com,78 Rokeby Road,Subiaco,6002,(08) 94893790,Taco Town,202 Taco Road,(08) 97536869,Veggie Taco,6,16/09/2024,1,6
+133,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Burger Barn,456 Burger Ave,(08) 93342056,Tempura,12,9/05/2024,3,36
+283,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Burger Barn,456 Burger Ave,(08) 93342056,Fries,3,4/10/2024,3,9
+342,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Burger Barn,456 Burger Ave,(08) 93342056,Caesar Salad,7.5,1/12/2024,3,22.5
+409,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Burger Barn,456 Burger Ave,(08) 93342056,Sushi Roll,10,6/02/2025,3,30
+189,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Curry Corner,303 Curry Blvd,(08) 98182384,Pepperoni Pizza,9,3/07/2024,1,9
+357,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Curry Corner,303 Curry Blvd,(08) 98182384,Tempura,12,16/12/2024,2,24
+410,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Curry Corner,303 Curry Blvd,(08) 98182384,Fries,3,7/02/2025,2,6
+153,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Pasta Palace,123 Pasta Lane,(08) 94246843,Veggie Taco,6,29/05/2024,3,18
+310,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Pasta Palace,123 Pasta Lane,(08) 94246843,Lasagna,15,31/10/2024,3,45
+340,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Pasta Palace,123 Pasta Lane,(08) 94246843,Pasta Primavera,14,30/11/2024,2,28
+396,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Pasta Palace,123 Pasta Lane,(08) 94246843,Grilled Chicken,16,24/01/2025,1,16
+479,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Pasta Palace,123 Pasta Lane,(08) 94246843,Fries,3,14/04/2025,3,9
+492,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Pasta Palace,123 Pasta Lane,(08) 94246843,Veggie Taco,6,27/04/2025,2,12
+136,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Pizza Plaza,101 Pizza Street,(08) 99827044,Lasagna,15,12/05/2024,1,15
+287,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Pizza Plaza,101 Pizza Street,(08) 99827044,Steak,20,8/10/2024,3,60
+302,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Pizza Plaza,101 Pizza Street,(08) 99827044,Veggie Taco,6,23/10/2024,1,6
+303,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Pizza Plaza,101 Pizza Street,(08) 99827044,Cheeseburger,8.5,24/10/2024,1,8.5
+319,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Pizza Plaza,101 Pizza Street,(08) 99827044,Caesar Salad,7.5,9/11/2024,1,7.5
+25,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Steak House,404 Steak Ave,(08) 94286388,Pepperoni Pizza,9,25/01/2024,3,27
+55,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Steak House,404 Steak Ave,(08) 94286388,Lasagna,15,24/02/2024,1,15
+221,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Steak House,404 Steak Ave,(08) 94286388,Steak,20,4/08/2024,2,40
+236,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Steak House,404 Steak Ave,(08) 94286388,Steak,20,19/08/2024,1,20
+465,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Steak House,404 Steak Ave,(08) 94286388,Cheeseburger,8.5,31/03/2025,1,8.5
+475,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Steak House,404 Steak Ave,(08) 94286388,Chicken Curry,13,10/04/2025,2,26
+117,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Sushi Spot,789 Sushi Blvd,(08) 94331690,Cheeseburger,8.5,24/04/2024,3,25.5
+179,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Sushi Spot,789 Sushi Blvd,(08) 94331690,Fries,3,24/06/2024,1,3
+144,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Taco Town,202 Taco Road,(08) 97536869,Grilled Chicken,16,20/05/2024,1,16
+146,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Taco Town,202 Taco Road,(08) 97536869,Spaghetti,12.5,22/05/2024,2,25
+176,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Taco Town,202 Taco Road,(08) 97536869,Cheeseburger,8.5,21/06/2024,2,17
+239,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Taco Town,202 Taco Road,(08) 97536869,Fries,3,22/08/2024,3,9
+254,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Taco Town,202 Taco Road,(08) 97536869,Tempura,12,6/09/2024,1,12
+308,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Taco Town,202 Taco Road,(08) 97536869,Pepperoni Pizza,9,29/10/2024,1,9
+457,Hannah Lee,hannah@hotmail.com,17 Beach Ave,Perth,6000,(08) 91680918,Taco Town,202 Taco Road,(08) 97536869,Cheeseburger,8.5,23/03/2025,2,17
+186,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Burger Barn,456 Burger Ave,(08) 93342056,Fries,3,31-06-2024,1,3
+234,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Burger Barn,456 Burger Ave,(08) 93342056,Spaghetti,12.5,17/08/2024,2,25
+436,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Burger Barn,456 Burger Ave,(08) 93342056,Steak,20,2/03/2025,2,40
+444,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Burger Barn,456 Burger Ave,(08) 93342056,Pepperoni Pizza,9,10/03/2025,3,27
+470,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Burger Barn,456 Burger Ave,(08) 93342056,Cheeseburger,8.5,5/04/2025,2,17
+500,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Burger Barn,456 Burger Ave,(08) 93342056,Lasagna,15,4/05/2025,1,15
+131,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Curry Corner,303 Curry Blvd,(08) 98182384,Caesar Salad,7.5,7/05/2024,1,7.5
+172,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Curry Corner,303 Curry Blvd,(08) 98182384,Sushi Roll,10,17/06/2024,3,30
+210,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Curry Corner,303 Curry Blvd,(08) 98182384,Chicken Curry,13,24/07/2024,2,26
+337,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Curry Corner,303 Curry Blvd,(08) 98182384,Tempura,12,27/11/2024,3,36
+438,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Curry Corner,303 Curry Blvd,(08) 98182384,Fish and Chips,11,4/03/2025,1,11
+107,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Pasta Palace,123 Pasta Lane,(08) 94246843,Grilled Chicken,16,14/04/2024,2,32
+305,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Pasta Palace,123 Pasta Lane,(08) 94246843,Burrito,8,26/10/2024,3,24
+446,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Pasta Palace,123 Pasta Lane,(08) 94246843,Tempura,12,12/03/2025,2,24
+478,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Pasta Palace,123 Pasta Lane,(08) 94246843,Burrito,8,13/04/2025,3,24
+43,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Pizza Plaza,101 Pizza Street,(08) 99827044,Lasagna,15,12/02/2024,2,30
+173,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Pizza Plaza,101 Pizza Street,(08) 99827044,Lasagna,15,18/06/2024,3,45
+214,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Pizza Plaza,101 Pizza Street,(08) 99827044,Fries,3,28/07/2024,2,6
+335,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Pizza Plaza,101 Pizza Street,(08) 99827044,Tempura,12,25/11/2024,3,36
+185,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Steak House,404 Steak Ave,(08) 94286388,Chicken Curry,13,30/06/2024,3,39
+246,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Steak House,404 Steak Ave,(08) 94286388,Lasagna,15,29/08/2024,3,45
+282,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Steak House,404 Steak Ave,(08) 94286388,Lasagna,15,3/10/2024,1,15
+300,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Steak House,404 Steak Ave,(08) 94286388,Cheeseburger,8.5,21/10/2024,1,8.5
+383,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Steak House,404 Steak Ave,(08) 94286388,Steak,20,11/01/2025,3,60
+241,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Sushi Spot,789 Sushi Blvd,(08) 94331690,Tempura,12,24/08/2024,1,12
+242,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Sushi Spot,789 Sushi Blvd,(08) 94331690,Burrito,8,25/08/2024,1,8
+291,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Sushi Spot,789 Sushi Blvd,(08) 94331690,Pepperoni Pizza,9,12/10/2024,2,18
+309,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Sushi Spot,789 Sushi Blvd,(08) 94331690,Cheeseburger,8.5,30/10/2024,1,8.5
+349,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Sushi Spot,789 Sushi Blvd,(08) 94331690,Cheeseburger,8.5,8/12/2024,2,17
+363,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Sushi Spot,789 Sushi Blvd,(08) 94331690,Tempura,12,22/12/2024,2,24
+154,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Taco Town,202 Taco Road,(08) 97536869,Lasagna,15,30/05/2024,2,30
+232,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Taco Town,202 Taco Road,(08) 97536869,Tempura,12,15/08/2024,1,12
+427,Ivy Taylor,ivy@hotmail.com,107 Jackson Lane,West Perth,6005,(08) 96360618,Taco Town,202 Taco Road,(08) 97536869,Chicken Curry,13,24/02/2025,3,39
+124,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Burger Barn,456 Burger Ave,(08) 93342056,Steak,20,31-04-2024,1,20
+222,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Burger Barn,456 Burger Ave,(08) 93342056,Sushi Roll,10,5/08/2024,1,10
+397,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Burger Barn,456 Burger Ave,(08) 93342056,Pasta Primavera,14,25/01/2025,2,28
+456,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Burger Barn,456 Burger Ave,(08) 93342056,Fries,3,22/03/2025,2,6
+462,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Burger Barn,456 Burger Ave,(08) 93342056,Lasagna,15,28/03/2025,3,45
+16,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Curry Corner,303 Curry Blvd,(08) 98182384,Caesar Salad,7.5,16/01/2024,2,15
+68,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Curry Corner,303 Curry Blvd,(08) 98182384,Pasta Primavera,14,6/03/2024,3,42
+229,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Curry Corner,303 Curry Blvd,(08) 98182384,Fish and Chips,11,12/08/2024,1,11
+294,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Curry Corner,303 Curry Blvd,(08) 98182384,Pepperoni Pizza,9,15/10/2024,2,18
+120,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Pasta Palace,123 Pasta Lane,(08) 94246843,Grilled Chicken,16,27/04/2024,1,16
+28,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Pizza Plaza,101 Pizza Street,(08) 99827044,Fish and Chips,11,28/01/2024,1,11
+50,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Pizza Plaza,101 Pizza Street,(08) 99827044,Pasta Primavera,14,19/02/2024,2,28
+65,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Pizza Plaza,101 Pizza Street,(08) 99827044,Sushi Roll,10,3/03/2024,3,30
+237,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Pizza Plaza,101 Pizza Street,(08) 99827044,Lasagna,15,20/08/2024,1,15
+390,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Pizza Plaza,101 Pizza Street,(08) 99827044,Pepperoni Pizza,9,18/01/2025,3,27
+36,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Steak House,404 Steak Ave,(08) 94286388,Fries,3,5/02/2024,2,6
+292,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Steak House,404 Steak Ave,(08) 94286388,Sushi Roll,10,13/10/2024,1,10
+368,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Steak House,404 Steak Ave,(08) 94286388,Spaghetti,12.5,27/12/2024,2,25
+437,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Steak House,404 Steak Ave,(08) 94286388,Grilled Chicken,16,3/03/2025,1,16
+26,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Sushi Spot,789 Sushi Blvd,(08) 94331690,Caesar Salad,7.5,26/01/2024,3,22.5
+128,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Sushi Spot,789 Sushi Blvd,(08) 94331690,Veggie Taco,6,4/05/2024,1,6
+296,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Sushi Spot,789 Sushi Blvd,(08) 94331690,Tempura,12,17/10/2024,2,24
+413,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Sushi Spot,789 Sushi Blvd,(08) 94331690,Tempura,12,10/02/2025,3,36
+449,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Sushi Spot,789 Sushi Blvd,(08) 94331690,Caesar Salad,7.5,15/03/2025,3,22.5
+101,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Taco Town,202 Taco Road,(08) 97536869,Spaghetti,12.5,8/04/2024,3,37.5
+183,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Taco Town,202 Taco Road,(08) 97536869,Pepperoni Pizza,9,28/06/2024,1,9
+196,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Taco Town,202 Taco Road,(08) 97536869,Steak,20,10/07/2024,3,60
+325,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Taco Town,202 Taco Road,(08) 97536869,Cheeseburger,8.5,15/11/2024,2,17
+472,Jack Wilson,jack@gmail.com,29 Walters Road,Subiaco,6002,(08) 92396950,Taco Town,202 Taco Road,(08) 97536869,Steak,20,7/04/2025,1,20
+22,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Burger Barn,456 Burger Ave,(08) 93342056,Cheeseburger,8.5,22/01/2024,1,8.5
+193,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Burger Barn,456 Burger Ave,(08) 93342056,Pasta Primavera,14,7/07/2024,1,14
+235,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Burger Barn,456 Burger Ave,(08) 93342056,Chicken Curry,13,18/08/2024,1,13
+33,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Curry Corner,303 Curry Blvd,(08) 98182384,Tempura,12,2/02/2024,3,36
+60,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Curry Corner,303 Curry Blvd,(08) 98182384,Fish and Chips,11,29/02/2024,1,11
+129,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Curry Corner,303 Curry Blvd,(08) 98182384,Pepperoni Pizza,9,5/05/2024,3,27
+166,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Curry Corner,303 Curry Blvd,(08) 98182384,Cheeseburger,8.5,11/06/2024,3,25.5
+377,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Curry Corner,303 Curry Blvd,(08) 98182384,Pasta Primavera,14,5/01/2025,2,28
+405,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Curry Corner,303 Curry Blvd,(08) 98182384,Steak,20,2/02/2025,3,60
+499,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Curry Corner,303 Curry Blvd,(08) 98182384,Lasagna,15,3/05/2025,3,45
+311,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Pasta Palace,123 Pasta Lane,(08) 94246843,Steak,20,1/11/2024,2,40
+355,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Pasta Palace,123 Pasta Lane,(08) 94246843,Fries,3,14/12/2024,2,6
+373,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Pasta Palace,123 Pasta Lane,(08) 94246843,Cheeseburger,8.5,1/01/2025,2,17
+391,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Pasta Palace,123 Pasta Lane,(08) 94246843,Fries,3,19/01/2025,1,3
+418,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Pasta Palace,123 Pasta Lane,(08) 94246843,Tempura,12,15/02/2025,1,12
+84,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Pizza Plaza,101 Pizza Street,(08) 99827044,Veggie Taco,6,22/03/2024,1,6
+121,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Pizza Plaza,101 Pizza Street,(08) 99827044,Sushi Roll,10,28/04/2024,1,10
+182,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Pizza Plaza,101 Pizza Street,(08) 99827044,Burrito,8,27/06/2024,3,24
+206,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Pizza Plaza,101 Pizza Street,(08) 99827044,Steak,20,20/07/2024,2,40
+317,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Pizza Plaza,101 Pizza Street,(08) 99827044,Spaghetti,12.5,7/11/2024,1,12.5
+6,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Steak House,404 Steak Ave,(08) 94286388,Chicken Curry,13,6/01/2024,3,39
+38,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Steak House,404 Steak Ave,(08) 94286388,Burrito,8,7/02/2024,2,16
+64,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Steak House,404 Steak Ave,(08) 94286388,Veggie Taco,6,2/03/2024,2,12
+95,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Steak House,404 Steak Ave,(08) 94286388,Steak,20,2/04/2024,1,20
+109,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Steak House,404 Steak Ave,(08) 94286388,Pasta Primavera,14,16/04/2024,3,42
+316,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Steak House,404 Steak Ave,(08) 94286388,Steak,20,6/11/2024,3,60
+364,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Steak House,404 Steak Ave,(08) 94286388,Grilled Chicken,16,23/12/2024,2,32
+430,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Steak House,404 Steak Ave,(08) 94286388,Pasta Primavera,14,27/02/2025,2,28
+34,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Sushi Spot,789 Sushi Blvd,(08) 94331690,Cheeseburger,8.5,3/02/2024,1,8.5
+263,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Sushi Spot,789 Sushi Blvd,(08) 94331690,Pepperoni Pizza,9,15/09/2024,2,18
+313,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Sushi Spot,789 Sushi Blvd,(08) 94331690,Pepperoni Pizza,9,3/11/2024,1,9
+434,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Sushi Spot,789 Sushi Blvd,(08) 94331690,Sushi Roll,10,31-02-2025,1,10
+24,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Taco Town,202 Taco Road,(08) 97536869,Burrito,8,24/01/2024,3,24
+86,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Taco Town,202 Taco Road,(08) 97536869,Caesar Salad,7.5,24/03/2024,2,15
+178,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Taco Town,202 Taco Road,(08) 97536869,Pepperoni Pizza,9,23/06/2024,3,27
+245,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Taco Town,202 Taco Road,(08) 97536869,Spaghetti,12.5,28/08/2024,3,37.5
+268,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Taco Town,202 Taco Road,(08) 97536869,Steak,20,20/09/2024,3,60
+455,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Taco Town,202 Taco Road,(08) 97536869,Spaghetti,12.5,21/03/2025,2,25
+489,Kara Stone,kara@hotmail.com,207 Wellington Street,Perth,6000,(08) 93013085,Taco Town,202 Taco Road,(08) 97536869,Veggie Taco,6,24/04/2025,1,6
+7,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Burger Barn,456 Burger Ave,(08) 93342056,Fries,3,7/01/2024,2,6
+20,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Burger Barn,456 Burger Ave,(08) 93342056,Chicken Curry,13,20/01/2024,1,13
+152,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Burger Barn,456 Burger Ave,(08) 93342056,Burrito,8,28/05/2024,2,16
+169,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Burger Barn,456 Burger Ave,(08) 93342056,Fries,3,14/06/2024,1,3
+406,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Burger Barn,456 Burger Ave,(08) 93342056,Fries,3,3/02/2025,2,6
+330,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Curry Corner,303 Curry Blvd,(08) 98182384,Fries,3,20/11/2024,2,6
+339,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Curry Corner,303 Curry Blvd,(08) 98182384,Cheeseburger,8.5,29/11/2024,1,8.5
+351,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Curry Corner,303 Curry Blvd,(08) 98182384,Cheeseburger,8.5,10/12/2024,2,17
+381,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Curry Corner,303 Curry Blvd,(08) 98182384,Fish and Chips,11,9/01/2025,2,22
+490,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Curry Corner,303 Curry Blvd,(08) 98182384,Spaghetti,12.5,25/04/2025,1,12.5
+91,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Pasta Palace,123 Pasta Lane,(08) 94246843,Pepperoni Pizza,9,29/03/2024,1,9
+417,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Pasta Palace,123 Pasta Lane,(08) 94246843,Grilled Chicken,16,14/02/2025,2,32
+141,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Pizza Plaza,101 Pizza Street,(08) 99827044,Steak,20,17/05/2024,2,40
+155,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Pizza Plaza,101 Pizza Street,(08) 99827044,Fries,3,31/05/2024,2,6
+275,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Pizza Plaza,101 Pizza Street,(08) 99827044,Grilled Chicken,16,27/09/2024,2,32
+10,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Steak House,404 Steak Ave,(08) 94286388,Grilled Chicken,16,10/01/2024,1,16
+47,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Steak House,404 Steak Ave,(08) 94286388,Fries,3,16/02/2024,3,9
+113,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Steak House,404 Steak Ave,(08) 94286388,Veggie Taco,6,20/04/2024,3,18
+123,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Steak House,404 Steak Ave,(08) 94286388,Caesar Salad,7.5,30/04/2024,1,7.5
+126,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Steak House,404 Steak Ave,(08) 94286388,Pepperoni Pizza,9,2/05/2024,1,9
+135,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Steak House,404 Steak Ave,(08) 94286388,Steak,20,11/05/2024,3,60
+177,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Steak House,404 Steak Ave,(08) 94286388,Chicken Curry,13,22/06/2024,2,26
+220,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Steak House,404 Steak Ave,(08) 94286388,Cheeseburger,8.5,3/08/2024,1,8.5
+321,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Steak House,404 Steak Ave,(08) 94286388,Lasagna,15,11/11/2024,3,45
+347,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Steak House,404 Steak Ave,(08) 94286388,Burrito,8,6/12/2024,1,8
+412,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Steak House,404 Steak Ave,(08) 94286388,Cheeseburger,8.5,9/02/2025,1,8.5
+37,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Sushi Spot,789 Sushi Blvd,(08) 94331690,Cheeseburger,8.5,6/02/2024,3,25.5
+42,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Sushi Spot,789 Sushi Blvd,(08) 94331690,Sushi Roll,10,11/02/2024,3,30
+89,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Sushi Spot,789 Sushi Blvd,(08) 94331690,Pepperoni Pizza,9,27/03/2024,3,27
+261,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Sushi Spot,789 Sushi Blvd,(08) 94331690,Sushi Roll,10,13/09/2024,1,10
+459,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Sushi Spot,789 Sushi Blvd,(08) 94331690,Veggie Taco,6,25/03/2025,3,18
+39,Liam Davis,liam@gmail.com,1 Barrack Street,Perth,6000,(08) 97362273,Taco Town,202 Taco Road,(08) 97536869,Grilled Chicken,16,8/02/2024,3,48
+200,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Burger Barn,456 Burger Ave,(08) 93342056,Cheeseburger,8.5,14/07/2024,1,8.5
+258,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Burger Barn,456 Burger Ave,(08) 93342056,Grilled Chicken,16,10/09/2024,2,32
+375,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Burger Barn,456 Burger Ave,(08) 93342056,Sushi Roll,10,3/01/2025,2,20
+380,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Burger Barn,456 Burger Ave,(08) 93342056,Veggie Taco,6,8/01/2025,3,18
+464,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Burger Barn,456 Burger Ave,(08) 93342056,Pepperoni Pizza,9,30/03/2025,1,9
+138,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Curry Corner,303 Curry Blvd,(08) 98182384,Lasagna,15,14/05/2024,3,45
+180,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Curry Corner,303 Curry Blvd,(08) 98182384,Pasta Primavera,14,25/06/2024,2,28
+204,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Curry Corner,303 Curry Blvd,(08) 98182384,Fish and Chips,11,18/07/2024,2,22
+442,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Curry Corner,303 Curry Blvd,(08) 98182384,Lasagna,15,8/03/2025,2,30
+127,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Pasta Palace,123 Pasta Lane,(08) 94246843,Grilled Chicken,16,3/05/2024,2,32
+445,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Pasta Palace,123 Pasta Lane,(08) 94246843,Pasta Primavera,14,11/03/2025,3,42
+451,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Pasta Palace,123 Pasta Lane,(08) 94246843,Pepperoni Pizza,9,17/03/2025,2,18
+4,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Pizza Plaza,101 Pizza Street,(08) 99827044,Steak,20,4/01/2024,2,40
+15,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Pizza Plaza,101 Pizza Street,(08) 99827044,Veggie Taco,6,15/01/2024,2,12
+159,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Pizza Plaza,101 Pizza Street,(08) 99827044,Pasta Primavera,14,4/06/2024,1,14
+170,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Pizza Plaza,101 Pizza Street,(08) 99827044,Veggie Taco,6,15/06/2024,1,6
+323,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Pizza Plaza,101 Pizza Street,(08) 99827044,Pepperoni Pizza,9,13/11/2024,3,27
+106,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Steak House,404 Steak Ave,(08) 94286388,Pasta Primavera,14,13/04/2024,2,28
+110,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Steak House,404 Steak Ave,(08) 94286388,Tempura,12,17/04/2024,1,12
+227,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Steak House,404 Steak Ave,(08) 94286388,Spaghetti,12.5,10/08/2024,3,37.5
+250,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Steak House,404 Steak Ave,(08) 94286388,Pasta Primavera,14,2/09/2024,1,14
+281,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Steak House,404 Steak Ave,(08) 94286388,Lasagna,15,2/10/2024,1,15
+285,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Steak House,404 Steak Ave,(08) 94286388,Pasta Primavera,14,6/10/2024,3,42
+341,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Steak House,404 Steak Ave,(08) 94286388,Steak,20,31-11-2024,1,20
+388,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Steak House,404 Steak Ave,(08) 94286388,Burrito,8,16/01/2025,2,16
+59,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Sushi Spot,789 Sushi Blvd,(08) 94331690,Spaghetti,12.5,28/02/2024,1,12.5
+72,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Sushi Spot,789 Sushi Blvd,(08) 94331690,Lasagna,15,10/03/2024,2,30
+92,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Sushi Spot,789 Sushi Blvd,(08) 94331690,Sushi Roll,10,30/03/2024,3,30
+188,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Sushi Spot,789 Sushi Blvd,(08) 94331690,Burrito,8,2/07/2024,3,24
+338,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Sushi Spot,789 Sushi Blvd,(08) 94331690,Fries,3,28/11/2024,3,9
+420,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Sushi Spot,789 Sushi Blvd,(08) 94331690,Sushi Roll,10,17/02/2025,1,10
+168,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Taco Town,202 Taco Road,(08) 97536869,Cheeseburger,8.5,13/06/2024,1,8.5
+174,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Taco Town,202 Taco Road,(08) 97536869,Lasagna,15,19/06/2024,3,45
+213,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Taco Town,202 Taco Road,(08) 97536869,Steak,20,27/07/2024,1,20
+320,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Taco Town,202 Taco Road,(08) 97536869,Fries,3,10/11/2024,3,9
+369,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Taco Town,202 Taco Road,(08) 97536869,Pepperoni Pizza,9,28/12/2024,3,27
+376,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Taco Town,202 Taco Road,(08) 97536869,Pepperoni Pizza,9,4/01/2025,1,9
+416,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Taco Town,202 Taco Road,(08) 97536869,Fish and Chips,11,13/02/2025,2,22
+473,Mia Thompson,mia@hotmail.com,33 Murray Street,Perth,6000,(08) 98511327,Taco Town,202 Taco Road,(08) 97536869,Pepperoni Pizza,9,8/04/2025,2,18
+13,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Burger Barn,456 Burger Ave,(08) 93342056,Fries,3,13/01/2024,1,3
+266,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Burger Barn,456 Burger Ave,(08) 93342056,Caesar Salad,7.5,18/09/2024,3,22.5
+288,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Burger Barn,456 Burger Ave,(08) 93342056,Fish and Chips,11,9/10/2024,1,11
+315,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Burger Barn,456 Burger Ave,(08) 93342056,Burrito,8,5/11/2024,1,8
+329,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Burger Barn,456 Burger Ave,(08) 93342056,Steak,20,19/11/2024,2,40
+448,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Burger Barn,456 Burger Ave,(08) 93342056,Veggie Taco,6,14/03/2025,3,18
+82,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Curry Corner,303 Curry Blvd,(08) 98182384,Sushi Roll,10,20/03/2024,2,20
+100,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Curry Corner,303 Curry Blvd,(08) 98182384,Chicken Curry,13,7/04/2024,1,13
+497,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Curry Corner,303 Curry Blvd,(08) 98182384,Cheeseburger,8.5,1/05/2025,1,8.5
+139,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Pasta Palace,123 Pasta Lane,(08) 94246843,Lasagna,15,15/05/2024,2,30
+181,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Pasta Palace,123 Pasta Lane,(08) 94246843,Fries,3,26/06/2024,1,3
+297,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Pasta Palace,123 Pasta Lane,(08) 94246843,Chicken Curry,13,18/10/2024,3,39
+414,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Pasta Palace,123 Pasta Lane,(08) 94246843,Burrito,8,11/02/2025,3,24
+272,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Pizza Plaza,101 Pizza Street,(08) 99827044,Pasta Primavera,14,24/09/2024,2,28
+326,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Pizza Plaza,101 Pizza Street,(08) 99827044,Pepperoni Pizza,9,16/11/2024,3,27
+415,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Pizza Plaza,101 Pizza Street,(08) 99827044,Steak,20,12/02/2025,2,40
+460,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Pizza Plaza,101 Pizza Street,(08) 99827044,Lasagna,15,26/03/2025,2,30
+471,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Pizza Plaza,101 Pizza Street,(08) 99827044,Burrito,8,6/04/2025,3,24
+481,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Pizza Plaza,101 Pizza Street,(08) 99827044,Cheeseburger,8.5,16/04/2025,1,8.5
+491,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Pizza Plaza,101 Pizza Street,(08) 99827044,Fish and Chips,11,26/04/2025,3,33
+143,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Steak House,404 Steak Ave,(08) 94286388,Lasagna,15,19/05/2024,3,45
+238,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Steak House,404 Steak Ave,(08) 94286388,Lasagna,15,21/08/2024,2,30
+243,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Steak House,404 Steak Ave,(08) 94286388,Veggie Taco,6,26/08/2024,2,12
+433,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Steak House,404 Steak Ave,(08) 94286388,Pepperoni Pizza,9,30-02-2025,2,18
+40,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Sushi Spot,789 Sushi Blvd,(08) 94331690,Sushi Roll,10,9/02/2024,1,10
+161,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Sushi Spot,789 Sushi Blvd,(08) 94331690,Caesar Salad,7.5,6/06/2024,2,15
+164,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Sushi Spot,789 Sushi Blvd,(08) 94331690,Lasagna,15,9/06/2024,2,30
+197,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Sushi Spot,789 Sushi Blvd,(08) 94331690,Burrito,8,11/07/2024,3,24
+318,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Sushi Spot,789 Sushi Blvd,(08) 94331690,Chicken Curry,13,8/11/2024,1,13
+386,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Sushi Spot,789 Sushi Blvd,(08) 94331690,Caesar Salad,7.5,14/01/2025,1,7.5
+467,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Sushi Spot,789 Sushi Blvd,(08) 94331690,Pepperoni Pizza,9,2/04/2025,3,27
+486,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Sushi Spot,789 Sushi Blvd,(08) 94331690,Grilled Chicken,16,21/04/2025,2,32
+32,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Taco Town,202 Taco Road,(08) 97536869,Pepperoni Pizza,9,1/02/2024,3,27
+69,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Taco Town,202 Taco Road,(08) 97536869,Cheeseburger,8.5,7/03/2024,2,17
+289,Noah Clark,noah@hotmail.com,99 Shafto Lane,Leederville,6005,(08) 93670840,Taco Town,202 Taco Road,(08) 97536869,Tempura,12,10/10/2024,3,36
+14,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Burger Barn,456 Burger Ave,(08) 93342056,Caesar Salad,7.5,14/01/2024,3,22.5
+122,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Burger Barn,456 Burger Ave,(08) 93342056,Caesar Salad,7.5,29/04/2024,3,22.5
+167,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Burger Barn,456 Burger Ave,(08) 93342056,Chicken Curry,13,12/06/2024,1,13
+279,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Burger Barn,456 Burger Ave,(08) 93342056,Spaghetti,12.5,31-09-2024,2,25
+324,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Burger Barn,456 Burger Ave,(08) 93342056,Chicken Curry,13,14/11/2024,3,39
+194,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Curry Corner,303 Curry Blvd,(08) 98182384,Lasagna,15,8/07/2024,2,30
+201,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Curry Corner,303 Curry Blvd,(08) 98182384,Caesar Salad,7.5,15/07/2024,1,7.5
+379,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Curry Corner,303 Curry Blvd,(08) 98182384,Tempura,12,7/01/2025,1,12
+469,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Curry Corner,303 Curry Blvd,(08) 98182384,Spaghetti,12.5,4/04/2025,3,37.5
+498,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Curry Corner,303 Curry Blvd,(08) 98182384,Tempura,12,2/05/2025,3,36
+119,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Pasta Palace,123 Pasta Lane,(08) 94246843,Fries,3,26/04/2024,1,3
+301,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Pasta Palace,123 Pasta Lane,(08) 94246843,Grilled Chicken,16,22/10/2024,3,48
+452,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Pasta Palace,123 Pasta Lane,(08) 94246843,Tempura,12,18/03/2025,2,24
+495,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Pasta Palace,123 Pasta Lane,(08) 94246843,Fries,3,30/04/2025,3,9
+2,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Pizza Plaza,101 Pizza Street,(08) 99827044,Pepperoni Pizza,9,2/01/2024,1,9
+31,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Pizza Plaza,101 Pizza Street,(08) 99827044,Tempura,12,31/01/2024,3,36
+74,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Pizza Plaza,101 Pizza Street,(08) 99827044,Chicken Curry,13,12/03/2024,3,39
+160,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Pizza Plaza,101 Pizza Street,(08) 99827044,Fish and Chips,11,5/06/2024,3,33
+195,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Pizza Plaza,101 Pizza Street,(08) 99827044,Fries,3,9/07/2024,3,9
+441,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Pizza Plaza,101 Pizza Street,(08) 99827044,Veggie Taco,6,7/03/2025,1,6
+46,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Steak House,404 Steak Ave,(08) 94286388,Lasagna,15,15/02/2024,2,30
+240,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Steak House,404 Steak Ave,(08) 94286388,Veggie Taco,6,23/08/2024,1,6
+249,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Steak House,404 Steak Ave,(08) 94286388,Lasagna,15,1/09/2024,2,30
+260,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Steak House,404 Steak Ave,(08) 94286388,Burrito,8,12/09/2024,1,8
+439,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Steak House,404 Steak Ave,(08) 94286388,Tempura,12,5/03/2025,1,12
+494,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Steak House,404 Steak Ave,(08) 94286388,Burrito,8,29/04/2025,3,24
+18,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Sushi Spot,789 Sushi Blvd,(08) 94331690,Veggie Taco,6,18/01/2024,1,6
+85,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Sushi Spot,789 Sushi Blvd,(08) 94331690,Sushi Roll,10,23/03/2024,2,20
+203,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Sushi Spot,789 Sushi Blvd,(08) 94331690,Burrito,8,17/07/2024,1,8
+265,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Sushi Spot,789 Sushi Blvd,(08) 94331690,Steak,20,17/09/2024,1,20
+284,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Sushi Spot,789 Sushi Blvd,(08) 94331690,Lasagna,15,5/10/2024,3,45
+67,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Taco Town,202 Taco Road,(08) 97536869,Fries,3,5/03/2024,2,6
+80,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Taco Town,202 Taco Road,(08) 97536869,Fish and Chips,11,18/03/2024,1,11
+293,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Taco Town,202 Taco Road,(08) 97536869,Pepperoni Pizza,9,14/10/2024,3,27
+304,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Taco Town,202 Taco Road,(08) 97536869,Fish and Chips,11,25/10/2024,2,22
+356,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Taco Town,202 Taco Road,(08) 97536869,Fries,3,15/12/2024,3,9
+440,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Taco Town,202 Taco Road,(08) 97536869,Chicken Curry,13,6/03/2025,3,39
+482,Olivia Moore,olivia@hotmail.com,7 Beach Road,Wembley,6008,(08) 95388274,Taco Town,202 Taco Road,(08) 97536869,Pepperoni Pizza,9,17/04/2025,2,18

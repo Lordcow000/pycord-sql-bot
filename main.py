@@ -17,14 +17,6 @@ cursor = conn.cursor()
 
 cursor.execute("PRAGMA foreign_keys = ON")
 
-test_table = """
-    CREATE TABLE IF NOT EXISTS test(
-        id INTEGER PTIMARY KEY NOT NULL,
-        name TEXT NOT NULL,
-        year INTEGER NOT NULL,
-        grade TEXT NOT NULL
-    )
-"""
 
 customer_table = """
 CREATE TABLE IF NOT EXISTS Customers(
@@ -38,25 +30,66 @@ CREATE TABLE IF NOT EXISTS Customers(
 )
 """
 
+restaurant_table = """
+CREATE TABLE IF NOT EXISTS Restaurants(
+    restaurant_id INTEGER PRIMARY KEY,
+    restaurant_name TEXT NOT NULL,
+    restaurant_address TEXT NOT NULL,
+    restaurant_phone TEXT NOT NULL
+)
+"""
 
+dish_table = """
+CREATE TABLE IF NOT EXISTS Dishes(
+    dish_id INTEGER PRIMARY KEY,
+    restaurant_id INTEGER NOT NULL,
+    dish_name TEXT NOT NULL,
+    dish_price FLOAT NOT NULL,
 
+    FOREIGN KEY (restaurant_id) REFERENCES Restaurants (restaurant_id)
+)
+"""
 
+orders_table = """
+CREATE TABLE IF NOT EXISTS Orders(
+    order_id INTEGER PRIMARY KEY,
+    customer_id INTEGER NOT NULL,
+    restaurant_id INTEGER NOT NULL,
+    order_date TEXT NOT NULL,
 
+    FOREIGN KEY (customer_id) REFERENCES Customers (customer_id),
+    FOREIGN KEY (restaurant_id) REFERENCES Restaurants (restaurant_id)
+)
+"""
 
-cursor.execute(test_table)
+orders_items = """
+CREATE TABLE IF NOT EXISTS OrdersItems(
+    order_id INTEGER NOT NULL,
+    dish_id INTEGER NOT NULL,
+    quantity INTEGER NOT NULL,
+    unit_price FLOAT NOT NULL,
+
+    PRIMARY KEY (order_id, dish_id),
+
+    FOREIGN KEY (order_id) REFERENCES Orders (order_id),
+    FOREIGN KEY (dish_id) REFERENCES Dishes (dish_id)
+
+)
+"""
+
 cursor.execute(customer_table)
 
-with open('test.csv', mode='r', newline='', encoding='utf-8') as file:
-    dict_reader = csv.DictReader(file)
+# with open("csv's/test.csv", mode='r', newline='', encoding='utf-8') as file:
+#     dict_reader = csv.DictReader(file)
 
-    for row in dict_reader:
-        values = (row['Id'], row['Name'], row['Year'], row['Grade'])
-        cursor.execute("""
-            INSERT INTO test (id, name, year, grade) 
-            VALUES (?, ?, ?, ?) """,
-            values)
+#     for row in dict_reader:
+#         values = (row['Id'], row['Name'], row['Year'], row['Grade'])
+#         cursor.execute("""
+#             INSERT INTO test (id, name, year, grade) 
+#             VALUES (?, ?, ?, ?) """,
+#             values)
 
-with open('customers.csv', mode='r', newline='', encoding='utf-8') as file:
+with open("csv's/customers.csv", mode='r', newline='', encoding='utf-8') as file:
     dict_reader = csv.DictReader(file)
 
     for row in dict_reader:
@@ -93,6 +126,14 @@ def custom_query(query):
 
 
 conn.commit()
+# endregion
+
+
+
+
+# region built-in-queries
+
+
 # endregion
 
 
@@ -142,7 +183,7 @@ cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
 tables = [row[0] for row in cursor.fetchall()]
 
 @select_group.command()
-async def all_(ctx:discord.ApplicationContext, table: str = discord.Option(choices=tables)):
+async def all_(ctx:discord.ApplicationContext, table: str = discord.Option(choices=tables)): # type: ignore
     headers, data = get_info_for_embed(table)
     # returns a list of dicts
     results = [dict(zip(headers, row)) for row in data]
@@ -163,8 +204,8 @@ async def all_(ctx:discord.ApplicationContext, table: str = discord.Option(choic
 sub_select_group = select_group.create_subgroup("all")
 
 
-@sub_select_group.command()
-async def where(ctx, table: str = discord.Option(choices=tables), column: str = discord.Option(), value: str = discord.Option()):
+@sub_select_group.command(description="Formated as: SELECT * FROM [table] WHERE [column] = [value]")
+async def where(ctx, table: str = discord.Option(choices=tables), column: str = discord.Option(), value: str = discord.Option()): # type: ignore
     headers, data = select_where(table, f"{column} = {value}")
     # returns a list of dicts
     results = [dict(zip(headers, row)) for row in data]
@@ -186,7 +227,7 @@ async def where(ctx, table: str = discord.Option(choices=tables), column: str = 
 
 
 @bot.command(description="Hi")
-async def custom(ctx, query: str = discord.Option()):
+async def custom(ctx, query: str = discord.Option()): # type: ignore
     headers, data = custom_query(query)
     # returns a list of dicts
     results = [dict(zip(headers, row)) for row in data]
