@@ -163,8 +163,6 @@ async def all_(ctx:discord.ApplicationContext, table: str = discord.Option(choic
 sub_select_group = select_group.create_subgroup("all")
 
 
-a=""""SELECT * FROM {table} WHERE"""
-
 @sub_select_group.command()
 async def where(ctx, table: str = discord.Option(choices=tables), column: str = discord.Option(), value: str = discord.Option()):
     headers, data = select_where(table, f"{column} = {value}")
