@@ -81,8 +81,9 @@ cursor.execute(orders_items)
 
 with open("csv's/mainData.csv", mode='r', newline='', encoding='utf-8') as file:
     dict_reader = csv.DictReader(file)
-    
-    for row in dict_reader:
+    rows = list(dict_reader)
+
+    for row in rows:
         # region customers
         customer_values = (row['CustomerName'], row['CustomerEmail'], row['CustomerAddress'], row['Suburb'], row['PostCode'], row['CustomerPhone'])
 
@@ -103,14 +104,67 @@ with open("csv's/mainData.csv", mode='r', newline='', encoding='utf-8') as file:
         cursor.execute("SELECT restaurant_id FROM Restaurants WHERE restaurant_name = ?", (row['RestaurantName'],))
         if cursor.fetchone() is None:
             cursor.execute(
-                """
+            """
             INSERT INTO Restaurants (restaurant_name, restaurant_address, restaurant_phone) 
             VALUES (?,?,?)
             """,
             restaurant_values,
             )
+
+        conn.commit()
         # endregion
 
+        # region dishes
+        cursor.execute("SELECT restaurant_id FROM Restaurants WHERE restaurant_name = ?", (row['RestaurantName'],))
+        restaurant_id, = (cursor.fetchone())
+
+        dish_values = (restaurant_id, row['DishName'], row['DishPrice'])
+
+        cursor.execute("SELECT dish_id FROM Dishes WHERE dish_name = ? AND restaurant_id = ?", (row['DishName'],restaurant_id))
+        if cursor.fetchone() is None:
+            cursor.execute(
+                """
+                INSERT INTO Dishes (restaurant_id, dish_name, dish_price)
+                VALUES (?, ?, ?)
+                """,
+                dish_values)
+        conn.commit()
+        # endregion 
+
+    for row in rows:
+        # region orders
+        cursor.execute("SELECT customer_id FROM Customers WHERE customer_name = ?", (row['CustomerName'],))
+        customer_id, = cursor.fetchone()
+
+        cursor.execute("SELECT restaurant_id FROM Restaurants WHERE restaurant_name = ?", (row['RestaurantName'],))
+        restaurant_id, = cursor.fetchone()        
+
+        orders_values = (customer_id, restaurant_id, row['OrderDate'])
+
+        print(orders_values)
+        cursor.execute(
+            """
+            INSERT INTO Orders (customer_id, restaurant_id, order_date)
+            VALUES (?, ?, ?)
+            """,
+            orders_values)
+        conn.commit()
+        # endregion
+
+
+        # region orders/items
+        cursor.execute("SELECT order_id FROM Orders WHERE customer_id = ? AND restaurant_id = ? AND order_date = ?", (customer_id, restaurant_id, row['OrderDate'],))
+        order_id, = cursor.fetchone()
+
+        cursor.execute("SELECT dish_id FROM Dishes WHERE dish_name = ? AND restaurant_id = ?", (row['DishName'], restaurant_id,))
+        dish_id, = cursor.fetchone()
+
+        cursor.execute(
+            """
+            INSERT INTO OrdersItems (order_id, dish_id, quantity, unit_price)
+            VALUES (?, ?, ?, ?)
+            """,
+            (order_id, dish_id, row['Quantity'], row['TotalAmount'],))
 
 conn.commit()
 
